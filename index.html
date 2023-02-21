@@ -1,23 +1,108 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Scala Media Design</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="newdesign.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!--NavBar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#home">Home</a></li>
+      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#video">Video</a></li>
+      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#drone">Drone</a></li>
+      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#ls">Live Stream & Post Production</a></li>
+      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#website">Web Design</a></li>
+      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav> 
+<!--Home Page-->
+<header class="home" id="home">
+    <div class="bg-image"></div>
 
-<body>
-  Hello world
-  <script src="script.js"></script>
+    <div class ="logoImage">
+    <img src="newdesign.png" alt="webLogo" class="webLogo">
+    </div>
 
- <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
-</body>
+    <div class="bg-text"></div>
+    </div>
+  </header>  
+<!--Video Page-->
+  <div class="video" id="video">
+  <h1 class ="filming-h1">Filiming</h1>
+    <div class = "filmingtext">
+        <h2 class="filming-h2">Offering a variety of different filming servies to fit any type of filming need</h2>
+         <h2 class="filming-h2">Weddings</h2>
+            <h2 class="filming-h2">Live Events</h2>
+                <h2 class="filming-h2">Company Promotional Videos</h2>
+    </div>
 
+  </div>
+  <!--Drone Page-->
+  <div class="drone" id="drone">
+   <h1 class="droneh1">Arial Footage</h1>
+   <h2 class="droneh2">Using a DJI phantom 4k drone, any arial footage can be filmed</h2>
+   <h3 class="droneh3">Drone Footage is Perfect for:</h3>
+   <h3 class="droneh3">-Commercial Real Estate</h3>
+   <h3 class="droneh3">-Residential Real Estate</h3>
+   <h3 class="droneh3">-Project Monitoring</h3>
+   <h3 class="droneh3">Inspections</h3>
+  </div>
+  <!--Live Stream Page-->
+  <div class="ls" id="ls">
+  <h1 class = "lsh1">Live Streaming and Post Production Services</h1>
+  <h2 class ="lsh2">Uploading either live events or prerecorded videos to most streaming platforms</h2>
+  <h2 class ="lsh2">Have footage already? We have the ability to edit footage together and give you a video that fits your needs </h2>
+  </div>
+
+  <!--Website Design-->
+  <div class="website" id="website">
+    <h1 class = "websiteh1">Website Development</h1>
+    <h2 class="websiteh2">Building websites for personal or professional usage</div>
+  </div>
+
+  <!--Contact Form-->
+  <div class="contact" id="contact">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="contacth1">Contact Us</h1>
+            </div>
+        </div>
+        <form action="https://formsubmit.co/paulscala1022@hotmail.com" method="POST">
+          <div><input type="name" class="name" name="name" placeholder="Name*" required></div>
+          <div><input type="email" class="email" name="email" placeholder="Email*" required></div>
+          <div><input type="phone" class="phone" name="phone" placeholder="Phone Number*" required></div>
+          <div><input type="message" class="message" name="message" placeholder="Message*"required></div>
+          <input type="hidden" name="_autoresponse" value="Thank you for your email! We will be responding to you soon">
+          <input type="hidden" name="_next" value="http://www.scalamediadesign.com/">
+          <button type="submit" class="button"><span>Send</span></button>
+     </form>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <span 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>

@@ -1,0 +1,278 @@
+.navbar {
+    width: 100%;
+    background-color: rgba(0,0,0,.2);
+    position: sticky; top: 0;
+    text-align: center;
+}
+.navbar ul{
+    text-align: center;
+    position: center;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    position: center;
+
+}
+.bg-dark {
+    background-color: #000000!important;
+}
+.navbar ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 25px;
+    transition: all ease 0.5s;
+    position: center;
+}
+.navbar ul li a:hover{
+    background-color: gray;
+}
+/* Position text in the middle of the page/image */
+
+.home{
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  background-attachment: scroll;
+  background-image: url(premiere.jpeg);
+  background-repeat: none;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.webLogo{
+  width: 30%;
+  position: relative;
+}
+.home .bg-image{
+padding-top: 10vh;
+}
+
+.home .bg-text {
+  padding-top: 10px;
+  padding-bottom: 50px;
+  color:white
+}
+.video{
+  height: 100vh;
+  width: 100%; 
+  text-align: center;
+  background-attachment: scroll;
+  background-image: url(lens.webp);
+  background-repeat: none;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: white;
+}
+.filming-h1{
+  color: white;
+  font-size: 8vw;
+  padding-top: 3%;
+}
+.filming-h2{
+  color: white;
+  font-size: 5vw;
+  margin: 3vh;
+} 
+
+
+
+.drone{
+  height: 100vh;
+  width: 100%; 
+  text-align: center;
+  background-attachment: scroll;
+  background-image: url(drone.jpeg);
+  background-repeat: none;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;   
+  color: rgb(0, 0, 0);
+
+}
+.droneh1{
+  font-size: 8vw;
+}
+.droneh2{
+  font-size: 5vw;
+}
+.droneh3{
+  font-size: 4vw;
+}
+
+.ls{
+  height: 100vh;
+  width: 100%; 
+
+  text-align: center;
+  background-attachment: scroll;
+  background-image: url(board.jpeg);
+  background-repeat: none;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: rgb(255, 255, 255);
+
+}
+.lsh1{
+  font-size: 8vw;
+}
+
+.lsh2{
+  font-size: 3vw;
+  margin: 3vh;
+}
+.editing{
+  height: 100vh;
+  width: 100%; 
+  text-align: center;
+  vertical-align: center;
+  background-attachment: scroll;
+  background-image: url(mm.webp);
+  background-repeat: none;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.website{
+  height: 100vh;
+  width: 100%; 
+  text-align: center;
+  vertical-align: center;
+  background-attachment: scroll;
+  background-image: url(developer-coding-in-php.jpg);
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: rgb(255, 255, 255);
+  
+}
+.websiteh1{
+  font-size: 8vw;
+
+}
+.websiteh2{
+  font-size: 5vw;
+  margin: 5vw;
+  padding-top: 6%;
+}
+.contact{
+  height: 100vh;
+  width: 100%; 
+  text-align: center;
+  background-attachment: scroll;
+  background-image: url(mm.webp);
+  background-repeat: none;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;  
+  color: white;
+}
+.contacth1{
+  font-size: 10vh;
+  margin: 3vh;
+}
+.contact .name{
+  width: 75vw;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.contact .email{
+  width: 75vw;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.contact .phone{
+  width: 75vw;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.contact .message{
+  width: 75vw;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: rgb(1, 176, 245);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 80vw;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.contact .section-heading{
+  font-size: 75px;
+}
+.contact .form-.form-group{
+  position: center;
+}
